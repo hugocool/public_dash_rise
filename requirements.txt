@@ -56,6 +56,8 @@ nbserverproxy==0.8.8
 notebook==6.0.3
 pandocfilters==1.4.2
 parso==0.6.2
+gunicorn==19.9.0
+pandas==0.24.2
 pexpect==4.8.0
 pickleshare==0.7.5
 plotly==4.5.4
