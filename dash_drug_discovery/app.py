@@ -10,7 +10,7 @@ from dash.exceptions import PreventUpdate
 from helpers import make_dash_table, create_plot
 
 
-app = JupyterDash('Drug Discovery')
+app = JupyterDash('Drug Discovery', width=600, height=800)
 #app = dash.Dash(
 #    __name__,
 #    meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
